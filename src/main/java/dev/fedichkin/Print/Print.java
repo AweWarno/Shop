@@ -4,8 +4,8 @@ import dev.fedichkin.Product.Product;
 
 import java.util.List;
 
-public class Print {
+public class Print extends PrintProductListToConsole {
     public void printProductList(List<Product> productList) {
-        new PrintProductList().print(productList);
+        print(productList);
     }
 }

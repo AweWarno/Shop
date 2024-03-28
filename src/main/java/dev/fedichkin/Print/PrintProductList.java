@@ -4,7 +4,7 @@ import dev.fedichkin.Product.Product;
 
 import java.util.List;
 
-public class PrintProductList {
+public class PrintProductListToConsole {
     public void print(List<Product> list) {
         if(!list.isEmpty()) {
             System.out.printf("%3s %-5s %3s %-20s %3s %-10s %3s %-10s %3s %n",
